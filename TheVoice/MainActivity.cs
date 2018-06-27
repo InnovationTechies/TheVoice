@@ -21,10 +21,10 @@ namespace TheVoice
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            _player = MediaPlayer.Create(this, Resource.Raw.test);
-            var playButton = FindViewById<Button>(Resource.Id.playButton);
-            playButton.Click += delegate {
-                _player.Start();
+            //_player = MediaPlayer.Create(this, Resource.Raw.test);
+            //var playButton = FindViewById<Button>(Resource.Id.playButton);
+            //playButton.Click += delegate {
+            //    _player.Start();
             }
 
         protected void SaveVoice()
