@@ -50,6 +50,12 @@ namespace TheVoice
 			// aapt resource value: 0x7f040000
 			public const int relativeLayout1 = 2130968576;
 			
+			// aapt resource value: 0x7f040002
+			public const int start = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int stop = 2130968579;
+			
 			static Id()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

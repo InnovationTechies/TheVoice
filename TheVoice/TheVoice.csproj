@@ -77,18 +77,19 @@
     <Folder Include="Resources\mipmap-xhdpi\" />
     <Folder Include="Resources\mipmap-xxhdpi\" />
     <Folder Include="Resources\mipmap-xxxhdpi\" />
+    <Folder Include="Resources\VN\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="VN\Recording %2810%29.m4a" />
-    <Content Include="VN\Recording %282%29.m4a" />
-    <Content Include="VN\Recording %283%29.m4a" />
-    <Content Include="VN\Recording %284%29.m4a" />
-    <Content Include="VN\Recording %285%29.m4a" />
-    <Content Include="VN\Recording %286%29.m4a" />
-    <Content Include="VN\Recording %287%29.m4a" />
-    <Content Include="VN\Recording %288%29.m4a" />
-    <Content Include="VN\Recording %289%29.m4a" />
-    <Content Include="VN\Recording.m4a" />
+    <Content Include="Resources\Raw\Recording %2810%29.m4a" />
+    <Content Include="Resources\Raw\Recording %282%29.m4a" />
+    <Content Include="Resources\Raw\Recording %283%29.m4a" />
+    <Content Include="Resources\Raw\Recording %284%29.m4a" />
+    <Content Include="Resources\Raw\Recording %285%29.m4a" />
+    <Content Include="Resources\Raw\Recording %286%29.m4a" />
+    <Content Include="Resources\Raw\Recording %287%29.m4a" />
+    <Content Include="Resources\Raw\Recording %288%29.m4a" />
+    <Content Include="Resources\Raw\Recording %289%29.m4a" />
+    <Content Include="Resources\Raw\Recording.m4a" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

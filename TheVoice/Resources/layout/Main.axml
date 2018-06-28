@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
     p1:minWidth="25px"
     p1:minHeight="25px"
     p1:layout_width="match_parent"
@@ -14,4 +14,23 @@
         p1:layout_centerVertical="true"
         p1:clickable="true"
         p1:onClick="SearchNumber " />
-</RelativeLayout>
+  <Button
+        p1:text="Start Recording"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/start"
+        p1:layout_centerHorizontal="true"
+        p1:layout_centerVertical="true"
+        p1:clickable="true"
+        p1:onClick="SearchNumber " />
+
+  <Button
+        p1:text="Stop Recording"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/stop"
+        p1:layout_centerHorizontal="true"
+        p1:layout_centerVertical="true"
+        p1:clickable="true"
+        p1:onClick="SearchNumber " />
+</LinearLayout>
