@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
-
 <LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
     p1:minWidth="25px"
     p1:minHeight="25px"
     p1:layout_width="match_parent"
     p1:layout_height="match_parent"
-              p1:id="@+id/relativeLayout1">
-    <!--p1:background ="@drawable/itWall.jpg"-->
+              p1:id="@+id/LinearLayout1">
   
     <Button
         p1:text="Match Voice"
@@ -19,6 +15,7 @@
         p1:layout_centerVertical="true"
         p1:clickable="true"
         p1:onClick="SearchNumber " />
+  
   <Button
         p1:text="Start Recording"
         p1:layout_width="wrap_content"
@@ -40,6 +37,8 @@
         p1:onClick="SearchNumber " />
 </LinearLayout>
 
+
+        <!--p1:width="@android:dimen/thumbnail_width"-->
 <!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
       <color android:color="@color/itWall.jpg"/>

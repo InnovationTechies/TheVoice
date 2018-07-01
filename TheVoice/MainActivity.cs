@@ -23,7 +23,6 @@ namespace TheVoice
         Button _start;
         Button _stop;
 
-
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);

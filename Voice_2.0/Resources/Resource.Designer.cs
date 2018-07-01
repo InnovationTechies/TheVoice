@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("TheVoice.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Voice_2._0.Resource", IsApplication=true)]
 
-namespace TheVoice
+namespace Voice_2._0
 {
 	
 	
@@ -41,55 +41,11 @@ namespace TheVoice
 			}
 		}
 		
-		public partial class Drawable
-		{
-			
-			// aapt resource value: 0x7f020000
-			public const int itWall = 2130837504;
-			
-			static Drawable()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Drawable()
-			{
-			}
-		}
-		
-		public partial class Id
-		{
-			
-			// aapt resource value: 0x7f050000
-			public const int LinearLayout1 = 2131034112;
-			
-			// aapt resource value: 0x7f050001
-			public const int btnSearch = 2131034113;
-			
-			// aapt resource value: 0x7f050002
-			public const int start = 2131034114;
-			
-			// aapt resource value: 0x7f050003
-			public const int stop = 2131034115;
-			
-			static Id()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Id()
-			{
-			}
-		}
-		
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
-			
-			// aapt resource value: 0x7f030001
-			public const int VoicePlayer = 2130903041;
+			// aapt resource value: 0x7f020000
+			public const int Main = 2130837504;
 			
 			static Layout()
 			{
@@ -104,8 +60,8 @@ namespace TheVoice
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040000
-			public const int app_name = 2130968576;
+			// aapt resource value: 0x7f030000
+			public const int app_name = 2130903040;
 			
 			static String()
 			{

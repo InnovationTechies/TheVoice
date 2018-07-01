@@ -5,12 +5,12 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D9CB0D58-D7AF-496F-A1FA-FBEBE0B8ECF7}</ProjectGuid>
+    <ProjectGuid>{E86DBC59-E3F5-4CDF-A57F-749825DCC991}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TheVoice</RootNamespace>
-    <AssemblyName>TheVoice</AssemblyName>
+    <RootNamespace>Voice_2._0</RootNamespace>
+    <AssemblyName>Voice_2.0</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
@@ -63,9 +63,6 @@
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
-    <AndroidResource Include="Resources\layout\VoicePlayer.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml">
@@ -74,25 +71,12 @@
     <AndroidResource Include="Resources\values\Strings.xml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Resources\drawable\" />
     <Folder Include="Resources\mipmap-hdpi\" />
     <Folder Include="Resources\mipmap-mdpi\" />
     <Folder Include="Resources\mipmap-xhdpi\" />
     <Folder Include="Resources\mipmap-xxhdpi\" />
     <Folder Include="Resources\mipmap-xxxhdpi\" />
-    <Folder Include="Resources\VN\" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\itWall.jpg" />
-    <Content Include="Resources\Raw\Recording %2810%29.m4a" />
-    <Content Include="Resources\Raw\Recording %282%29.m4a" />
-    <Content Include="Resources\Raw\Recording %283%29.m4a" />
-    <Content Include="Resources\Raw\Recording %284%29.m4a" />
-    <Content Include="Resources\Raw\Recording %285%29.m4a" />
-    <Content Include="Resources\Raw\Recording %286%29.m4a" />
-    <Content Include="Resources\Raw\Recording %287%29.m4a" />
-    <Content Include="Resources\Raw\Recording %288%29.m4a" />
-    <Content Include="Resources\Raw\Recording %289%29.m4a" />
-    <Content Include="Resources\Raw\Recording.m4a" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
